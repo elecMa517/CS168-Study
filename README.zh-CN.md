@@ -22,10 +22,7 @@ Claude Code 作为交互式 CS168 辅导老师：
 ## 仓库结构
 
 ```
-/reference/                       # CS168 SP25 讨论课题目（含解答）
-  cs168-sp25-disc01.pdf           # Layers, Design, Traceroute
-  cs168-sp25-disc01-sols.pdf      # 解答
-  ... disc02 至 disc12 ...
+/reference/                       # 在本地放入 disc PDF（已 git-ignore，链接见下方）
 
 /sessions/                        # 每日学习记录
   /YYYY-MM-DD/
@@ -42,22 +39,24 @@ README.zh-CN.md                   # 本文件（中文）
 
 ---
 
-## 涵盖的 CS168 主题
+## 讨论课题目（官方链接）
 
-| Disc | 主题 |
-|------|------|
-| 01 | 网络分层架构、封装、Traceroute |
-| 02 | 分组交换、延迟类型、统计复用 |
-| 03 | 距离矢量路由（Bellman-Ford） |
-| 04 | 链路状态路由（Dijkstra / OSPF） |
-| 05 | BGP — 域间路由 |
-| 06 | TCP — 可靠传输 |
-| 07 | 拥塞控制（AIMD、慢启动） |
-| 08 | DNS、HTTP、以太网 |
-| 09 | ARP、DHCP、NAT |
-| 10 | 数据中心网络与 SDN |
-| 11 | 主机网络栈（内核、RDMA） |
-| 12 | 组播与集体通信 |
+所有 PDF 均托管在 CS168 SP25 官方课程网站，下载后放入本地 `reference/` 文件夹即可使用。
+
+| Disc | 主题 | 题目 | 解答 |
+|------|------|------|------|
+| 01 | 网络分层架构、封装、Traceroute | [disc01](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc01.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc01-sols.pdf) |
+| 02 | 分组交换、延迟类型、统计复用 | [disc02](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc02.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc02-sols.pdf) |
+| 03 | 距离矢量路由（Bellman-Ford） | [disc03](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc03.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc03-sols.pdf) |
+| 04 | 链路状态路由（Dijkstra / OSPF） | [disc04](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc04.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc04-sols.pdf) |
+| 05 | BGP — 域间路由 | [disc05](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc05.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc05-sols.pdf) |
+| 06 | TCP — 可靠传输 | [disc06](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc06.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc06-sols.pdf) |
+| 07 | 拥塞控制（AIMD、慢启动） | [disc07](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc07.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc07-sols.pdf) |
+| 08 | DNS、HTTP、以太网 | [disc08](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc08.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc08-sols.pdf) |
+| 09 | ARP、DHCP、NAT | [disc09](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc09.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc09-sols.pdf) |
+| 10 | 数据中心网络与 SDN | [disc10](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc10.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc10-sols.pdf) |
+| 11 | 主机网络栈（内核、RDMA） | [disc11](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc11.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc11-sols.pdf) |
+| 12 | 组播与集体通信 | [disc12](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc12.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc12-sols.pdf) |
 
 ---
 
@@ -127,4 +126,12 @@ disc01 建立分层模型的基础，后续所有内容都依赖于此。
 - **Kurose & Ross** 《Computer Networking: A Top-Down Approach》
 - **Tanenbaum & Wetherall** 《Computer Networks》
 - **RFC 文档**：RFC 793（TCP）、RFC 791（IP）、RFC 4271（BGP）等
-- `reference/` 中的 disc PDF（课程一手练习材料）
+- [sp25.cs168.io](https://sp25.cs168.io/) 提供的 disc PDF（课程一手练习材料）
+
+---
+
+## 致谢
+
+- **CS168 — UC Berkeley**：本仓库使用的所有讨论课题目均来自 [CS168 Spring 2025](https://sp25.cs168.io/) 课程。本仓库是独立学习工具，与 UC Berkeley 及 CS168 课程团队无任何隶属关系。
+
+- **[chenran818/CFP-Study](https://github.com/chenran818/CFP-Study)**：本仓库的文件结构、学习记录协议以及 `CLAUDE.md` 中的苏格拉底式教学方法，均改编自该项目。原项目使用相同的 AI 引导式学习方法成功通过了 CFP 考试。

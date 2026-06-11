@@ -22,10 +22,7 @@ Claude Code acts as an interactive CS168 tutor that:
 ## Repository Structure
 
 ```
-/reference/                       # CS168 SP25 discussion worksheets (+ solutions)
-  cs168-sp25-disc01.pdf           # Layers, Design, Traceroute
-  cs168-sp25-disc01-sols.pdf      # Solutions
-  ... disc02 through disc12 ...
+/reference/                       # Place disc PDFs here locally (git-ignored, see links below)
 
 /sessions/                        # Daily learning session notes
   /YYYY-MM-DD/
@@ -42,22 +39,24 @@ README.zh-CN.md                   # Chinese version
 
 ---
 
-## Topics Covered (disc01–12)
+## Discussion Worksheets (Official Links)
 
-| Disc | Topic |
-|------|-------|
-| 01 | Network Architecture, Layers, Traceroute |
-| 02 | Packet Switching, Delays, Statistical Multiplexing |
-| 03 | Distance-Vector Routing (Bellman-Ford) |
-| 04 | Link-State Routing (Dijkstra / OSPF) |
-| 05 | BGP — Interdomain Routing |
-| 06 | TCP — Reliable Transport |
-| 07 | Congestion Control (AIMD, Slow Start) |
-| 08 | DNS, HTTP, Ethernet |
-| 09 | ARP, DHCP, NAT |
-| 10 | Datacenters & SDN |
-| 11 | Host Networking (Kernel Stack, RDMA) |
-| 12 | Multicast & Collective Communication |
+All PDFs are hosted on the official CS168 SP25 course website. Download them into your local `reference/` folder.
+
+| Disc | Topic | Worksheet | Solutions |
+|------|-------|-----------|-----------|
+| 01 | Network Architecture, Layers, Traceroute | [disc01](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc01.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc01-sols.pdf) |
+| 02 | Packet Switching, Delays, Statistical Multiplexing | [disc02](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc02.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc02-sols.pdf) |
+| 03 | Distance-Vector Routing (Bellman-Ford) | [disc03](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc03.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc03-sols.pdf) |
+| 04 | Link-State Routing (Dijkstra / OSPF) | [disc04](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc04.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc04-sols.pdf) |
+| 05 | BGP — Interdomain Routing | [disc05](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc05.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc05-sols.pdf) |
+| 06 | TCP — Reliable Transport | [disc06](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc06.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc06-sols.pdf) |
+| 07 | Congestion Control (AIMD, Slow Start) | [disc07](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc07.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc07-sols.pdf) |
+| 08 | DNS, HTTP, Ethernet | [disc08](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc08.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc08-sols.pdf) |
+| 09 | ARP, DHCP, NAT | [disc09](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc09.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc09-sols.pdf) |
+| 10 | Datacenters & SDN | [disc10](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc10.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc10-sols.pdf) |
+| 11 | Host Networking (Kernel Stack, RDMA) | [disc11](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc11.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc11-sols.pdf) |
+| 12 | Multicast & Collective Communication | [disc12](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc12.pdf) | [sols](https://sp25.cs168.io/assets/discussions/cs168-sp25-disc12-sols.pdf) |
 
 ---
 
@@ -127,4 +126,12 @@ Start with disc01 to build the layering mental model — everything else depends
 - **Kurose & Ross** *Computer Networking: A Top-Down Approach*
 - **Tanenbaum & Wetherall** *Computer Networks*
 - **RFCs**: RFC 793 (TCP), RFC 791 (IP), RFC 4271 (BGP), etc.
-- Disc PDFs in `reference/` (primary course practice materials)
+- Disc PDFs from [sp25.cs168.io](https://sp25.cs168.io/) (primary course practice materials)
+
+---
+
+## Acknowledgements
+
+- **CS168 — UC Berkeley**: All discussion worksheets and course materials are from the [CS168 Spring 2025](https://sp25.cs168.io/) course. This repository is an independent study tool and is not affiliated with or endorsed by UC Berkeley or the CS168 course staff.
+
+- **[chenran818/CFP-Study](https://github.com/chenran818/CFP-Study)**: The repository structure, session tracking protocol, and Socratic teaching methodology in `CLAUDE.md` are adapted from this project, which used the same AI-powered guided learning approach to prepare for the CFP exam.
